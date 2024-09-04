@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="usb_cam" pkg="usb_cam" type="usb_cam">
+  <param name="exposure" type="int" value="80" />
+  <param name="brightness" type="int" value="0" />
+  <param name="contrast" type="int" value="32" />
+  <param name="saturation" type="int" value="60" />
+  <param name="sharpness" type="int" value="2" />
+  <param name="white_balance" type="int" value="4600" />
+</node>
+\endverbatim
+

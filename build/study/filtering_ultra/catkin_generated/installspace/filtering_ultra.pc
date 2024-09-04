@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: filtering_ultra
+Description: Description of filtering_ultra
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

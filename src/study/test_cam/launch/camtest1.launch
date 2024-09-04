@@ -1,0 +1,10 @@
+<launch>
+    <!-- USB Camera node -->
+    <include file="$(find usb_cam)/launch/xycar_cam.launch" />
+    <node name="my_cam" pkg="test_cam" type="cam1.py" output="screen"/>
+
+    <!-- motor node -->
+    <include file="$(find xycar_motor)/launch/xycar_motor.launch" />
+    <node name="teacher" pkg="test_cam" type="cam1.py"/>
+    <node name="student" pkg="test_cam" type="go.py"/>
+</launch>

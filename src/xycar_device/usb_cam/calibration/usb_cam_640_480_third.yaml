@@ -1,0 +1,31 @@
+# 2023-09-07
+# created by junho yoo
+# 87 images
+ 
+image_width: 640
+image_height: 480
+camera_name: usb_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [356.63295,   0.     , 333.97428,
+           0.     , 358.50818, 226.11279,
+           0.     ,   0.     ,   1.     ]
+camera_model: plumb_bob
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.261372, 0.048147, 0.002089, -0.001813, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [252.12314,   0.     , 340.53606,   0.     ,
+           0.     , 306.85278, 222.02714,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]

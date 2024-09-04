@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: app_joystick_cam
+Description: Description of app_joystick_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

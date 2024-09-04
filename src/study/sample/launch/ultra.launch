@@ -1,0 +1,5 @@
+<launch>
+    <!-- Ultrasonic sensor node -->
+    <include file="$(find xycar_ultrasonic)/launch/xycar_ultrasonic.launch" />
+    <node pkg="sample" type="ultra.py" name="my_ultra" output="screen" />
+</launch>

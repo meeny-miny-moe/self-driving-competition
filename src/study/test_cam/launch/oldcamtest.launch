@@ -1,0 +1,13 @@
+<launch>
+	<!-- USB Camera node -->
+
+	<node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen"/>
+        
+
+        <!-- motor node -->
+        <include file="$(find xycar_motor)/launch/xycar_motor.launch" />
+
+        <node name="teacher" pkg="test_cam" type="oldcam.py" />
+        <node name="student" pkg="test_cam" type="go.py"/>
+        
+</launch>

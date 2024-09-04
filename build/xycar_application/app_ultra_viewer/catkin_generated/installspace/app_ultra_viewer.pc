@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: app_ultra_viewer
+Description: Description of app_ultra_viewer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

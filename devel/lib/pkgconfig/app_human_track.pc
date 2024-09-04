@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/devel
+
+Name: app_human_track
+Description: Description of app_human_track
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

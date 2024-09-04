@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- Camera node -->
+  <include file="$(find usb_cam)/launch/xycar_cam.launch"/>
+
+  <!-- Camera Viewer node (image can be saved to ~/Downloads folfer) -->
+  <node pkg="image_view" respawn="false" type="image_view" name="image_view" output="screen" >
+    <remap from="image" to="/usb_cam/image_raw" />
+    <param name="autosize" value="true" />
+    <param name="filename_format" value="/home/pi/Downloads/cam_image_%04d.jpg" />
+  </node>
+
+</launch>

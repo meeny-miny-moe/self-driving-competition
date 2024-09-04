@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- USB Camera Viewer node -->
+  <include file="$(find usb_cam)/launch/xycar_cam_viewer.launch"/>
+
+  <!-- IMU Viewer node -->  
+  <include file="$(find xycar_imu)/launch/xycar_imu_rviz.launch" />
+  
+  <!-- Ultrasonic Viewer node -->
+  <include file="$(find xycar_ultrasonic)/launch/xycar_ultrasonic_viewer.launch" />
+
+  <!-- Pi-CAM Viewer node -->
+  <!-- <include file="$(find pi_cam)/launch/pi_cam_viewer.launch" /> -->
+
+</launch>

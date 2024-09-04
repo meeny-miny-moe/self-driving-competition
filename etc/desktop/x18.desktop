@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/pi/xycar_ws/etc/gui-shell/x18.sh
+Name=모터제어기 초기화
+Comment=모터제어기 초기화
+Icon=/home/pi/xycar_ws/etc/icon/x18.png

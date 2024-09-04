@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/devel
+
+Name: xycar_motor
+Description: Description of xycar_motor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

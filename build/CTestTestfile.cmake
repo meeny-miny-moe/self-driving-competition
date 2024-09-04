@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/xycar_ws/src
+# Build directory: /home/pi/xycar_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("xycar_application/app_8_drive")
+subdirs("xycar_application/app_ar_parking_sim")
+subdirs("xycar_application/app_hough_drive")
+subdirs("xycar_application/app_human_track")
+subdirs("xycar_application/app_joystick_cam")
+subdirs("xycar_application/app_path_planning")
+subdirs("xycar_application/app_rule_drive_sim")
+subdirs("xycar_application/app_sensor_drive")
+subdirs("xycar_application/app_ultra_viewer")
+subdirs("xycar_application/app_viewer_test")
+subdirs("study/my_cam")
+subdirs("study/my_motor")
+subdirs("study/my_ultra")
+subdirs("study/sameple_2")
+subdirs("study/sample")
+subdirs("study/test_cam")
+subdirs("xycar_device/pi_cam")
+subdirs("study/track_drive")
+subdirs("study/ultra_drive")
+subdirs("xycar_device/usb_cam")
+subdirs("xycar_device/xycar_imu")
+subdirs("xycar_device/xycar_motor")
+subdirs("xycar_device/xycar_msgs")
+subdirs("xycar_simulator/xycar_sim_dqn")
+subdirs("xycar_simulator/xycar_sim_driving")
+subdirs("xycar_simulator/xycar_sim_parking")
+subdirs("xycar_simulator/xycar_sim_ultra")
+subdirs("xycar_device/xycar_ultrasonic_1x8")

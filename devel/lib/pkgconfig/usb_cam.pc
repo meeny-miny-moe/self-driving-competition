@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/pi/xycar_ws/devel/include -I/home/pi/xycar_ws/src/xycar_device/usb_cam/include
+Libs: -L${prefix}/lib -lusb_cam
+Requires: image_transport roscpp rospy std_msgs std_srvs sensor_msgs camera_info_manager dynamic_reconfigure

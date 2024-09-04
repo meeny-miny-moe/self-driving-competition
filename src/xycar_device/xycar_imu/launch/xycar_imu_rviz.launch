@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- IMU node -->
+  <include file="$(find xycar_imu)/launch/xycar_imu.launch"/>
+
+  <!-- RVIZ + URDF Viewer node --> 
+  <arg name="gui" default="true" />
+  <param name="robot_description" textfile="$(find xycar_imu)/urdf/plane.urdf" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+  <node name="rpy_tf" pkg="xycar_imu" type="tf_broadcaster_imu" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find xycar_imu)/config/rviz_config.rviz"/> 
+
+</launch>

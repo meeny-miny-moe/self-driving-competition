@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: app_viewer_test
+Description: Description of app_viewer_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

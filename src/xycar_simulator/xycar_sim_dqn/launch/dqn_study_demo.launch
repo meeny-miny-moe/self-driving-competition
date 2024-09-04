@@ -1,0 +1,3 @@
+<launch>
+  <node name="dqn_study" pkg="xycar_sim_dqn" type="study.py" output="screen" />
+</launch>

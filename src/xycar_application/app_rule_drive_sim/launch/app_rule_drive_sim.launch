@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Pygame Simulator node -->
+  <node name="simulator"  pkg="xycar_sim_ultra" type="main" output="screen"/>
+
+  <!-- My Driver node -->
+  <node name="driver" pkg="app_rule_drive_sim" type="app_rule_drive_sim" output="screen"/>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/devel
+
+Name: sample
+Description: Description of sample
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

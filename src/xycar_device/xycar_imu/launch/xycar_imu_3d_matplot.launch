@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- IMU node -->
+  <include file="$(find xycar_imu)/launch/xycar_imu.launch"/>
+
+  <!-- Matplot 3D Viewer node -->
+  <node name="imu_viewer" pkg="xycar_imu" type="imu_3d_matplot" output="screen"/>
+
+</launch>

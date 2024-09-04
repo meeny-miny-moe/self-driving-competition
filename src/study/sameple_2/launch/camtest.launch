@@ -1,0 +1,20 @@
+<launch>
+	
+
+        <include file="$(find usb_cam)/launch/xycar_cam.launch" />
+
+        <!--
+	-->
+        
+        <node name="my_cam" pkg="sameple_2" type="final.py" output="screen"/>
+
+        <!-- motor node -->
+        <include file="$(find xycar_motor)/launch/xycar_motor.launch" />
+
+    
+
+      
+     
+    
+        
+</launch>

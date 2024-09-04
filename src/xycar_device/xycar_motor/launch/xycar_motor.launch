@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="xycar_motor" type="xycar_motor" name="xycar_motor" output="screen">
+    <param name="port" value="/dev/serial/by-id/usb-1a86_USB2.0-Ser_-if00-port0" />
+    <param name="topic_name" value="xycar_motor" />
+    <param name="interval" value="1.0" />  <!-- 0.5~5.0  -->
+    <param name="alignment" value="0" />   <!-- -90~+90  -->
+    <param name="delta" value="50" />      <!--  1~200   -->
+    <param name="direction" value="1" />  <!-- -1 or 1 --> 
+  </node>
+</launch>

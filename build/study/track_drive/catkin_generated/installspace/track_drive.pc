@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: track_drive
+Description: Description of track_drive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

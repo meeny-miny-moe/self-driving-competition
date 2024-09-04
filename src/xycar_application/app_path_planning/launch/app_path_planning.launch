@@ -1,0 +1,3 @@
+<launch>
+  <node name="simulator"  pkg="app_path_planning" type="main" output="screen"/>
+</launch>

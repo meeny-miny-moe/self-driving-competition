@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~exposure" : \b [int] camera exposure min: 1, default: 80, max: 5000
+- \b "~brightness" : \b [int] camera brightness min: -64, default: 0, max: 64
+- \b "~contrast" : \b [int] camera contrast min: 0, default: 32, max: 64
+- \b "~saturation" : \b [int] camera saturation min: 0, default: 60, max: 128
+- \b "~sharpness" : \b [int] camera sharpness min: 0, default: 2, max: 6
+- \b "~white_balance" : \b [int] camera white balance min: 2800, default: 4600, max: 6500
+

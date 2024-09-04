@@ -1,0 +1,4 @@
+<launch>
+  <node name="xycar_imu" pkg="xycar_imu" type="imu_node" />
+  <node name="imu_filter" pkg="imu_complementary_filter" type="complementary_filter_node" />
+</launch>

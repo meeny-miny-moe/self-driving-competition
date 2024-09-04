@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: app_rule_drive_sim
+Description: Description of app_rule_drive_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

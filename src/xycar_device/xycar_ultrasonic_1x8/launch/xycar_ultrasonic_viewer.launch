@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Ultrasonic node -->
+  <include file="$(find xycar_ultrasonic)/launch/xycar_ultrasonic.launch"/>
+
+  <!-- Ultrasonic GUI Viewer node -->
+  <node pkg="app_ultra_viewer" type="app_ultra_viewer" name="ultra_viewer" output="screen" />
+
+</launch>

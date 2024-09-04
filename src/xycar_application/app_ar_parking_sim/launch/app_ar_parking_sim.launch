@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Parking Simulator node -->
+  <node name="xycar_sim_parking"  pkg="xycar_sim_parking" type="main" output="screen"/>
+
+  <!-- My Driver node -->
+  <node name="ar_driver"  pkg="app_ar_parking_sim" type="app_ar_parking_sim" output="screen" />
+
+</launch>

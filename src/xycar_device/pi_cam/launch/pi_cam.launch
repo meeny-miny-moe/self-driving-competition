@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="pi_cam_node" pkg="pi_cam" type="pi_cam_node" respawn="false" output="screen" >
+    <param name="VideoDevice" type="int" value="2"/>
+    <param name="Hz" type="int" value="30" />
+    <param name="Resolution" type="int" value="1" />
+  </node>  
+
+</launch>

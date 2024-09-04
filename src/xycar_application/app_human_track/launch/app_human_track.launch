@@ -1,0 +1,17 @@
+<launch>
+
+  <!-- USB Camera node -->
+  <include file="$(find usb_cam)/launch/xycar_cam.launch" />
+
+  <!-- Motor node -->
+  <include file="$(find xycar_motor)/launch/xycar_motor.launch" />
+
+  <!-- Object Detection -->
+  <node pkg="app_human_track" type="app_human_track_tflite" name="Detector" output="screen">
+    <param name="speed" value="12" />
+    <param name="catch_retry" value="10" />
+    <param name="ckpt_path" value="$(find app_human_track)/src/TFLite_model_coco_ssd_mobilenet_v1/detect.tflite" />
+    <param name="label_path" value="$(find app_human_track)/src/TFLite_model_coco_ssd_mobilenet_v1/labelmap.txt" />  
+  </node>
+  
+</launch>

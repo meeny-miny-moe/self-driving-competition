@@ -1,0 +1,8 @@
+prefix=/home/pi/xycar_ws/install
+
+Name: ultra_drive
+Description: Description of ultra_drive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

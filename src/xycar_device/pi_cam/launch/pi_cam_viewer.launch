@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- Pi Camera node -->
+  <include file="$(find pi_cam)/launch/pi_cam.launch"/>
+
+  <!-- Camera Viewer node (image can be saved to ~/Downloads folfer) -->
+  <node pkg="image_view" respawn="false" type="image_view" name="pi_image_view" output="screen" >
+    <remap from="image" to="/pi_cam" />
+    <param name="autosize" value="true" />
+    <param name="filename_format" value="/home/pi/Downloads/back_cam_image_%04d.jpg" />
+  </node> 
+
+</launch>
